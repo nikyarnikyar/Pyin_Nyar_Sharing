@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>Pyin Nyar Sharing</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script>
+    $(function(){
+     $('#header').load('header.html');
+ });
+ </script>
+
+<body>
+
+    <div id="header"></div>
+    <section>
+    <div class="wrapper">
+        <div class="form-box login">
+            <h2>login</h2>
+            <form action="">
+                <div class="input-box">
+                    <span class="icon"> <ion-icon name="mail-unread-outline"></ion-icon>
+                    </span>
+                    <input type="email" required>
+                    <label>Email </label>
+                </div>
+                <div class="input-box">
+                    <span class="icon-lock"> <ion-icon name="lock-open-outline"></ion-icon></span>
+                    <input type="password" required>
+                    <label>Password </label>
+                </div>
+                <span class="icon-close"> <ion-icon name="close-circle-outline"></ion-icon></span>
+                <div class="remember-forgot">
+                    <label><input type="checkbox"> Remember me </label>
+                    <a href="">Forgot password?</a>
+                </div>
+                <div class="login-register">
+                    <p>Don't have an account?<a href="" class="register-link">Register</a></p>
+                </div>
+                <button type="submit" class="btn">Login</button>
+            </form>
+        </div>
+    </div>
+
+    </secion>
+
+</body>
+<footer>
+    <p>Copyright &copy; waneiza</p>
+</footer>
+
+</html>
